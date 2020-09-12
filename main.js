@@ -93,7 +93,7 @@ function draw() {
   player.collide(chairCollide1);
   player.collide(chairCollide2);
   player.collide(butlerCollider);
-  player.collide(wallcoll1);
+  player.collide(floor2door);
 
   rm_home.display();
   butler.display();
